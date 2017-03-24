@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/quest"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:transitionName="time"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/challenge"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="6dp"
+        android:transitionName="motion"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/quest"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="20dp"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#2B3D4D"
+        tools:text="I am here" />
+</RelativeLayout>

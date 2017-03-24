@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Challenge</string>
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="free">Free Association</string>
+
+    <string name="dialogTitle">CHALLENGE</string>
+
+    <string name="dialogPos">Submit</string>
+
+    <string name="attribute">Attributes</string>
+
+    <string name="attrDesc">Enter twelve attributes</string>
+
+    <string name="attrHint">Performance,Cost,Difficulty...</string>
+
+    <string name="dialogNeg">Cancel</string>
+
+    <string name="DiceTitle">Dice Roll</string>
+
+    <string name="dialogDesc">Enter challenge and press submit to move to attributes</string>
+
+    <string name="AttributeTitle">Attributes</string>
+
+    <string name="Logout">Logout</string>
+
+    <string name="NoConnection">No Internet Connection</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="comb">Combined Association</string>
+
+    <string-array name="Questions">
+        <item>What associations can I make?</item>
+        <item>What do the associations remind me of?</item>
+        <item>What analogies can I make from the associations?</item>
+        <item>What are the relationships between the associations and challenge?</item>
+        <item>Any new insights?</item>
+    </string-array>
+</resources>
+

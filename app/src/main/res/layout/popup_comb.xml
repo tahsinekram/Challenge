@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tablecomb"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/rowComb1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="Combined Association"
+                android:textSize="40sp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+
+                android:background="@android:color/holo_blue_dark"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablecomb"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:id="@+id/rowComb2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark" >
+                <TextView
+                    android:id="@+id/attributeComb1"
+                    android:text="attribute1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/attributeComb2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center_vertical"
+                    android:text="attribute2"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowComb3"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/editAttrComb1"
+                android:layout_width="170dp"
+                android:layout_height="330dp"
+                android:inputType="textMultiLine|textCapSentences"
+                android:maxLines="10"
+                android:maxLength="2000"
+                android:layout_weight="1"
+                android:gravity="top|left"
+                android:hint="Enter your responses"
+                android:scrollHorizontally="false"
+                tools:text="Brainstorm and enter"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</RelativeLayout>
